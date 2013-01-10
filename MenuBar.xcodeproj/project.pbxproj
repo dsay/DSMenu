@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112B54EA169DACB30019E846 /* DSProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 112B54E8169DAC0F0019E846 /* DSProgressView.m */; };
 		11968F26169C495F007D24F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11968F25169C495F007D24F8 /* UIKit.framework */; };
 		11968F28169C495F007D24F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11968F27169C495F007D24F8 /* Foundation.framework */; };
 		11968F2A169C495F007D24F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11968F29169C495F007D24F8 /* CoreGraphics.framework */; };
@@ -18,9 +19,25 @@
 		11968F3C169C495F007D24F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11968F3B169C495F007D24F8 /* Default-568h@2x.png */; };
 		11968F3F169C495F007D24F8 /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11968F3E169C495F007D24F8 /* DSViewController.m */; };
 		11968F42169C495F007D24F8 /* DSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11968F40169C495F007D24F8 /* DSViewController.xib */; };
+		11968F4A169C49E8007D24F8 /* DSMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 11968F49169C49E8007D24F8 /* DSMenuButton.m */; };
+		11968F59169C4C90007D24F8 /* CashCloud_App_ueber_HIGH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11968F4E169C4C90007D24F8 /* CashCloud_App_ueber_HIGH.jpg */; };
+		11968F5A169C4C90007D24F8 /* Default-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11968F4F169C4C90007D24F8 /* Default-Icon.png */; };
+		11968F5B169C4C90007D24F8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11968F50169C4C90007D24F8 /* icon.png */; };
+		11968F5C169C4C90007D24F8 /* Icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 11968F51169C4C90007D24F8 /* Icon57.png */; };
+		11968F5D169C4C90007D24F8 /* Icon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 11968F52169C4C90007D24F8 /* Icon_iPad.png */; };
+		11968F5E169C4C90007D24F8 /* Icon_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11968F53169C4C90007D24F8 /* Icon_iPad@2x.png */; };
+		11968F5F169C4C90007D24F8 /* icon_slotcity_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 11968F54169C4C90007D24F8 /* icon_slotcity_72x72.png */; };
+		11968F60169C4C90007D24F8 /* icon~iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11968F55169C4C90007D24F8 /* icon~iphone@2x.png */; };
+		11968F61169C4C90007D24F8 /* iphone4_icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 11968F56169C4C90007D24F8 /* iphone4_icon_114x114.png */; };
+		11968F62169C4C90007D24F8 /* MumsnetIcon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 11968F57169C4C90007D24F8 /* MumsnetIcon114.png */; };
+		11968F63169C4C90007D24F8 /* veronica144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 11968F58169C4C90007D24F8 /* veronica144x144.png */; };
+		11968F6B169C5BBA007D24F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11968F6A169C5BBA007D24F8 /* QuartzCore.framework */; };
+		11968F6E169C6680007D24F8 /* DSMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 11968F6D169C6680007D24F8 /* DSMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		112B54E7169DAC0F0019E846 /* DSProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSProgressView.h; sourceTree = "<group>"; };
+		112B54E8169DAC0F0019E846 /* DSProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSProgressView.m; sourceTree = "<group>"; };
 		11968F21169C495F007D24F8 /* MenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11968F25169C495F007D24F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		11968F27169C495F007D24F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +54,22 @@
 		11968F3D169C495F007D24F8 /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
 		11968F3E169C495F007D24F8 /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
 		11968F41169C495F007D24F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DSViewController.xib; sourceTree = "<group>"; };
+		11968F48169C49E8007D24F8 /* DSMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSMenuButton.h; path = DSMenu/DSMenuButton.h; sourceTree = "<group>"; };
+		11968F49169C49E8007D24F8 /* DSMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSMenuButton.m; path = DSMenu/DSMenuButton.m; sourceTree = "<group>"; };
+		11968F4E169C4C90007D24F8 /* CashCloud_App_ueber_HIGH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CashCloud_App_ueber_HIGH.jpg; sourceTree = "<group>"; };
+		11968F4F169C4C90007D24F8 /* Default-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Icon.png"; sourceTree = "<group>"; };
+		11968F50169C4C90007D24F8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		11968F51169C4C90007D24F8 /* Icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon57.png; sourceTree = "<group>"; };
+		11968F52169C4C90007D24F8 /* Icon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_iPad.png; sourceTree = "<group>"; };
+		11968F53169C4C90007D24F8 /* Icon_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_iPad@2x.png"; sourceTree = "<group>"; };
+		11968F54169C4C90007D24F8 /* icon_slotcity_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_slotcity_72x72.png; sourceTree = "<group>"; };
+		11968F55169C4C90007D24F8 /* icon~iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon~iphone@2x.png"; sourceTree = "<group>"; };
+		11968F56169C4C90007D24F8 /* iphone4_icon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone4_icon_114x114.png; sourceTree = "<group>"; };
+		11968F57169C4C90007D24F8 /* MumsnetIcon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MumsnetIcon114.png; sourceTree = "<group>"; };
+		11968F58169C4C90007D24F8 /* veronica144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = veronica144x144.png; sourceTree = "<group>"; };
+		11968F6A169C5BBA007D24F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		11968F6C169C6680007D24F8 /* DSMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSMenu.h; path = DSMenu/DSMenu.h; sourceTree = "<group>"; };
+		11968F6D169C6680007D24F8 /* DSMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSMenu.m; path = DSMenu/DSMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11968F6B169C5BBA007D24F8 /* QuartzCore.framework in Frameworks */,
 				11968F26169C495F007D24F8 /* UIKit.framework in Frameworks */,
 				11968F28169C495F007D24F8 /* Foundation.framework in Frameworks */,
 				11968F2A169C495F007D24F8 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +107,7 @@
 		11968F24169C495F007D24F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				11968F6A169C5BBA007D24F8 /* QuartzCore.framework */,
 				11968F25169C495F007D24F8 /* UIKit.framework */,
 				11968F27169C495F007D24F8 /* Foundation.framework */,
 				11968F29169C495F007D24F8 /* CoreGraphics.framework */,
@@ -83,6 +118,13 @@
 		11968F2B169C495F007D24F8 /* MenuBar */ = {
 			isa = PBXGroup;
 			children = (
+				11968F4D169C4C90007D24F8 /* icon */,
+				11968F48169C49E8007D24F8 /* DSMenuButton.h */,
+				11968F49169C49E8007D24F8 /* DSMenuButton.m */,
+				11968F6C169C6680007D24F8 /* DSMenu.h */,
+				11968F6D169C6680007D24F8 /* DSMenu.m */,
+				112B54E7169DAC0F0019E846 /* DSProgressView.h */,
+				112B54E8169DAC0F0019E846 /* DSProgressView.m */,
 				11968F34169C495F007D24F8 /* DSAppDelegate.h */,
 				11968F35169C495F007D24F8 /* DSAppDelegate.m */,
 				11968F3D169C495F007D24F8 /* DSViewController.h */,
@@ -105,6 +147,24 @@
 				11968F3B169C495F007D24F8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11968F4D169C4C90007D24F8 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				11968F4E169C4C90007D24F8 /* CashCloud_App_ueber_HIGH.jpg */,
+				11968F4F169C4C90007D24F8 /* Default-Icon.png */,
+				11968F50169C4C90007D24F8 /* icon.png */,
+				11968F51169C4C90007D24F8 /* Icon57.png */,
+				11968F52169C4C90007D24F8 /* Icon_iPad.png */,
+				11968F53169C4C90007D24F8 /* Icon_iPad@2x.png */,
+				11968F54169C4C90007D24F8 /* icon_slotcity_72x72.png */,
+				11968F55169C4C90007D24F8 /* icon~iphone@2x.png */,
+				11968F56169C4C90007D24F8 /* iphone4_icon_114x114.png */,
+				11968F57169C4C90007D24F8 /* MumsnetIcon114.png */,
+				11968F58169C4C90007D24F8 /* veronica144x144.png */,
+			);
+			path = icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +224,17 @@
 				11968F3A169C495F007D24F8 /* Default@2x.png in Resources */,
 				11968F3C169C495F007D24F8 /* Default-568h@2x.png in Resources */,
 				11968F42169C495F007D24F8 /* DSViewController.xib in Resources */,
+				11968F59169C4C90007D24F8 /* CashCloud_App_ueber_HIGH.jpg in Resources */,
+				11968F5A169C4C90007D24F8 /* Default-Icon.png in Resources */,
+				11968F5B169C4C90007D24F8 /* icon.png in Resources */,
+				11968F5C169C4C90007D24F8 /* Icon57.png in Resources */,
+				11968F5D169C4C90007D24F8 /* Icon_iPad.png in Resources */,
+				11968F5E169C4C90007D24F8 /* Icon_iPad@2x.png in Resources */,
+				11968F5F169C4C90007D24F8 /* icon_slotcity_72x72.png in Resources */,
+				11968F60169C4C90007D24F8 /* icon~iphone@2x.png in Resources */,
+				11968F61169C4C90007D24F8 /* iphone4_icon_114x114.png in Resources */,
+				11968F62169C4C90007D24F8 /* MumsnetIcon114.png in Resources */,
+				11968F63169C4C90007D24F8 /* veronica144x144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +245,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112B54EA169DACB30019E846 /* DSProgressView.m in Sources */,
 				11968F32169C495F007D24F8 /* main.m in Sources */,
 				11968F36169C495F007D24F8 /* DSAppDelegate.m in Sources */,
 				11968F3F169C495F007D24F8 /* DSViewController.m in Sources */,
+				11968F4A169C49E8007D24F8 /* DSMenuButton.m in Sources */,
+				11968F6E169C6680007D24F8 /* DSMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +366,7 @@
 				11968F47169C495F007D24F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
