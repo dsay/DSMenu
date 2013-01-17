@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		112B54EA169DACB30019E846 /* DSProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 112B54E8169DAC0F0019E846 /* DSProgressView.m */; };
+		11912A7A16A7EA6B00D18764 /* DSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11912A7716A7EA6B00D18764 /* DSAnimationView.m */; };
+		11912A7B16A7EA6B00D18764 /* UINavigationController+DSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11912A7916A7EA6B00D18764 /* UINavigationController+DSAnimation.m */; };
+		11912A7F16A7EA8E00D18764 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11912A7E16A7EA8E00D18764 /* iCarousel.m */; };
 		11968F26169C495F007D24F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11968F25169C495F007D24F8 /* UIKit.framework */; };
 		11968F28169C495F007D24F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11968F27169C495F007D24F8 /* Foundation.framework */; };
 		11968F2A169C495F007D24F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11968F29169C495F007D24F8 /* CoreGraphics.framework */; };
@@ -38,6 +41,16 @@
 /* Begin PBXFileReference section */
 		112B54E7169DAC0F0019E846 /* DSProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSProgressView.h; sourceTree = "<group>"; };
 		112B54E8169DAC0F0019E846 /* DSProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSProgressView.m; sourceTree = "<group>"; };
+		11912A7016A7EA0800D18764 /* CoreDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataSource.h; sourceTree = "<group>"; };
+		11912A7116A7EA0800D18764 /* CoreDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataSource.m; sourceTree = "<group>"; };
+		11912A7216A7EA0800D18764 /* DSDataMenager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSDataMenager.h; sourceTree = "<group>"; };
+		11912A7316A7EA0800D18764 /* DSDataMenager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSDataMenager.m; sourceTree = "<group>"; };
+		11912A7616A7EA6B00D18764 /* DSAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSAnimationView.h; sourceTree = "<group>"; };
+		11912A7716A7EA6B00D18764 /* DSAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSAnimationView.m; sourceTree = "<group>"; };
+		11912A7816A7EA6B00D18764 /* UINavigationController+DSAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+DSAnimation.h"; sourceTree = "<group>"; };
+		11912A7916A7EA6B00D18764 /* UINavigationController+DSAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+DSAnimation.m"; sourceTree = "<group>"; };
+		11912A7D16A7EA8E00D18764 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		11912A7E16A7EA8E00D18764 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		11968F21169C495F007D24F8 /* MenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11968F25169C495F007D24F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		11968F27169C495F007D24F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +100,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11912A6C16A7E93B00D18764 /* DSMenu */ = {
+			isa = PBXGroup;
+			children = (
+				11968F48169C49E8007D24F8 /* DSMenuButton.h */,
+				11968F49169C49E8007D24F8 /* DSMenuButton.m */,
+				11968F6C169C6680007D24F8 /* DSMenu.h */,
+				11968F6D169C6680007D24F8 /* DSMenu.m */,
+			);
+			name = DSMenu;
+			sourceTree = "<group>";
+		};
+		11912A6E16A7E94E00D18764 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				112B54E7169DAC0F0019E846 /* DSProgressView.h */,
+				112B54E8169DAC0F0019E846 /* DSProgressView.m */,
+			);
+			name = ProgressView;
+			sourceTree = "<group>";
+		};
+		11912A6F16A7E9C000D18764 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				11912A7016A7EA0800D18764 /* CoreDataSource.h */,
+				11912A7116A7EA0800D18764 /* CoreDataSource.m */,
+				11912A7216A7EA0800D18764 /* DSDataMenager.h */,
+				11912A7316A7EA0800D18764 /* DSDataMenager.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		11912A7516A7EA6B00D18764 /* DSNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				11912A7616A7EA6B00D18764 /* DSAnimationView.h */,
+				11912A7716A7EA6B00D18764 /* DSAnimationView.m */,
+				11912A7816A7EA6B00D18764 /* UINavigationController+DSAnimation.h */,
+				11912A7916A7EA6B00D18764 /* UINavigationController+DSAnimation.m */,
+			);
+			path = DSNavigationView;
+			sourceTree = "<group>";
+		};
+		11912A7C16A7EA8E00D18764 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				11912A7D16A7EA8E00D18764 /* iCarousel.h */,
+				11912A7E16A7EA8E00D18764 /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
 		11968F16169C495F007D24F8 = {
 			isa = PBXGroup;
 			children = (
@@ -118,18 +182,17 @@
 		11968F2B169C495F007D24F8 /* MenuBar */ = {
 			isa = PBXGroup;
 			children = (
-				11968F4D169C4C90007D24F8 /* icon */,
-				11968F48169C49E8007D24F8 /* DSMenuButton.h */,
-				11968F49169C49E8007D24F8 /* DSMenuButton.m */,
-				11968F6C169C6680007D24F8 /* DSMenu.h */,
-				11968F6D169C6680007D24F8 /* DSMenu.m */,
-				112B54E7169DAC0F0019E846 /* DSProgressView.h */,
-				112B54E8169DAC0F0019E846 /* DSProgressView.m */,
+				11912A7C16A7EA8E00D18764 /* iCarousel */,
+				11912A7516A7EA6B00D18764 /* DSNavigationView */,
+				11912A6F16A7E9C000D18764 /* CoreData */,
+				11912A6E16A7E94E00D18764 /* ProgressView */,
+				11912A6C16A7E93B00D18764 /* DSMenu */,
 				11968F34169C495F007D24F8 /* DSAppDelegate.h */,
 				11968F35169C495F007D24F8 /* DSAppDelegate.m */,
 				11968F3D169C495F007D24F8 /* DSViewController.h */,
 				11968F3E169C495F007D24F8 /* DSViewController.m */,
 				11968F40169C495F007D24F8 /* DSViewController.xib */,
+				11968F4D169C4C90007D24F8 /* icon */,
 				11968F2C169C495F007D24F8 /* Supporting Files */,
 			);
 			path = MenuBar;
@@ -251,6 +314,9 @@
 				11968F3F169C495F007D24F8 /* DSViewController.m in Sources */,
 				11968F4A169C49E8007D24F8 /* DSMenuButton.m in Sources */,
 				11968F6E169C6680007D24F8 /* DSMenu.m in Sources */,
+				11912A7A16A7EA6B00D18764 /* DSAnimationView.m in Sources */,
+				11912A7B16A7EA6B00D18764 /* UINavigationController+DSAnimation.m in Sources */,
+				11912A7F16A7EA8E00D18764 /* iCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
