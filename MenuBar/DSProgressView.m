@@ -1,5 +1,5 @@
 #import "DSProgressView.h"
-
+#import <QuartzCore/QuartzCore.h>
 @implementation DSProgressView
 
 -(void)step
@@ -9,6 +9,7 @@
 
 - (void)drawRect:(CGRect)rect
 {
+
     static float steps = 0;
 
     steps += 0.09;
@@ -35,7 +36,7 @@
     {
         CGContextSaveGState(context);
         CGContextTranslateCTM(context, bounds.size.width / 2.f, bounds.size.height / 2.f);
-        
+    
         int clockwise = 1;
         
         if (i % 2) 
